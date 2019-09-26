@@ -5,7 +5,7 @@ class Usuario
 // as propriedades
 private $primeiroNome;
 private $ultimoNome;
-// metodo que diz Ola ao usuario
+
 public function __construct($primeiroNome,$ultimoNome)
 {
 $this->primeiroNome=$primeiroNome; 
