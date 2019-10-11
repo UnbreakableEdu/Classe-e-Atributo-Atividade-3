@@ -42,12 +42,12 @@ function adicionarAoNomeUsuario(Usuario $usuario){
 }
 
 $usuario1 = new Comentarista();
-$usuario1->setNomeUsuario("Alcinda");
+$usuario1->setNomeUsuario("Jane");
 $usuario1->setSexo('feminino');
 echo adicionarAoNomeUsuario($usuario1)."\n";
 
 $usuario2 = new Comentarista();
-$usuario2->setNomeUsuario("Arnaldo");
+$usuario2->setNomeUsuario("Bobby");
 $usuario2->setSexo('masculino');
 echo adicionarAoNomeUsuario($usuario2)."\n";
 
